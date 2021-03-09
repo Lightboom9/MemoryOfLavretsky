@@ -27,7 +27,7 @@ def main():
         return
 
     longpoll = VkLongPoll(vk_session)
-    chatid = 1
+    chatid = 4
 
     '''
     for event in longpoll.listen():
@@ -35,12 +35,12 @@ def main():
             if event.to_me and event.from_chat:
                 if event.text == '!DetectChat':
                     print(event.chat_id)
-                vk.messages.send(chat_id=chatid, message=quotes[random.randint(0, len(quotes) - 1)], random_id=random.randint(0, 999999999999999))
+                # vk.messages.send(chat_id=chatid, message=quotes[random.randint(0, len(quotes) - 1)], random_id=random.randint(0, 999999999999999))
     '''
 
     while True:
         vk.messages.send(chat_id=chatid, message=quotes[random.randint(0, len(quotes) - 1)], random_id=random.randint(0, 999999999999999))
-        time.sleep(random.randint(1200, 12000));
+        time.sleep(random.randint(60, 300));
 
 
 if __name__ == '__main__':
