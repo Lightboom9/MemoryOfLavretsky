@@ -28,6 +28,7 @@ def main():
 
     longpoll = VkLongPoll(vk_session)
     chatid = 4
+    chatid2 = 5
 
     '''
     for event in longpoll.listen():
@@ -40,7 +41,9 @@ def main():
 
     while True:
         vk.messages.send(chat_id=chatid, message=quotes[random.randint(0, len(quotes) - 1)], random_id=random.randint(0, 999999999999999))
-        time.sleep(random.randint(60, 300));
+        time.sleep(random.randint(5, 15))
+        vk.messages.send(chat_id=chatid2, message=quotes[random.randint(0, len(quotes) - 1)], random_id=random.randint(0, 999999999999999))
+        time.sleep(random.randint(3600, 7200))
 
 
 if __name__ == '__main__':
