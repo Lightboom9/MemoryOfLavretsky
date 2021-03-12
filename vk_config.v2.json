@@ -471,6 +471,11 @@
           "expires_in": "0",
           "user_id": "643783376"
         },
+        "scope_audio,docs,messages": {
+          "access_token": "549b534e2fffee6fa6a8f0dd2b541e702df1a45e5916f5d20366af4a3eba835d82b25f3117e8c025d69fa",
+          "expires_in": "86400",
+          "user_id": "643783376"
+        },
         "scope_friends,audio,docs,messages": {
           "access_token": "1bbcdcec33cce45b0ae227f4c628b66b45749205d46845c7e9e7c33513f677ba277ba8f33fee2b2619c96",
           "expires_in": "86400",
