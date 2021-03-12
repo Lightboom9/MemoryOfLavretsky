@@ -302,7 +302,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "f79ad80813e4724e814c3dd49e772187016d074c55e1f9d4d1d9316f812a5",
+        "value": "bd5d96117357433087257585f052a6339f3bdc9d68527805a2cdb4f4631e9",
         "version": 0
       },
       {
@@ -380,7 +380,7 @@
         "rest": {},
         "rfc2109": false,
         "secure": true,
-        "value": "8b72e3e8e64949203f",
+        "value": "d7ec884246e452268e",
         "version": 0
       },
       {
@@ -401,7 +401,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "1c16577b57cb9f3f9509a4c1dc321cf2af12feb163c00ad0faf057442dff1",
+        "value": "37095496ec56f311f00f8e94d9b2fa6dbebd2107cbbb47756fedd6e75a750",
         "version": 0
       },
       {
@@ -420,7 +420,7 @@
         "rest": {},
         "rfc2109": false,
         "secure": true,
-        "value": "247923702_EqEMwBDKYZNbqgzEVCCbAsNBHTVmBxZZsdJ5zdj6aBs",
+        "value": "104533557_FAO2iKsLo7IK21A2zcjxwXXigwAnMsla6SRKsTVI9Uz",
         "version": 0
       },
       {
@@ -450,7 +450,7 @@
         "domain_initial_dot": true,
         "domain_specified": true,
         "expires": null,
-        "name": "remixusid",
+        "name": "remixuas",
         "path": "/",
         "path_specified": true,
         "port": null,
@@ -460,7 +460,7 @@
         },
         "rfc2109": false,
         "secure": true,
-        "value": "YzI2NmQzYzg5ZDQ4ZjZiOGYwZmM2Y2E3",
+        "value": "YTFmMDkzMDc0MWUzZTM4ZjhiZjVjODBl",
         "version": 0
       }
     ],
@@ -469,6 +469,11 @@
         "scope_140492255": {
           "access_token": "e99955bf8a90bf9db86feec416f8109be4a62c0048da3eba394fc42c2fca9cd4ea9646788b4e03e210344",
           "expires_in": "0",
+          "user_id": "643783376"
+        },
+        "scope_friends,audio,docs,messages": {
+          "access_token": "1bbcdcec33cce45b0ae227f4c628b66b45749205d46845c7e9e7c33513f677ba277ba8f33fee2b2619c96",
+          "expires_in": "86400",
           "user_id": "643783376"
         }
       }
